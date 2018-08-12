@@ -1,0 +1,1 @@
+json.partial! "add_institution_to_courses/add_institution_to_course", add_institution_to_course: @add_institution_to_course

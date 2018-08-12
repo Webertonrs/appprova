@@ -1,0 +1,2 @@
+module AddInstitutionToCoursesHelper
+end

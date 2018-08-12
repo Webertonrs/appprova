@@ -1,0 +1,27 @@
+<h1>ENADE</h1>
+
+<%= link_to 'Manage Institutions', institutions_path %> |
+<%= link_to 'Manage Courses', courses_path %> |
+<%= link_to 'Manage Students', students_path %>
+<br> </br>
+<table border = "1">
+  <thead>
+    <tr>
+      <th>Institution</th>
+      <th>Institution Grade</th>
+      <th>Course</th>
+      <th>Course Grade</th>
+    </tr>
+  </thead>
+
+  <tbody align = center>
+    <% @courses.each do |course| %>
+      <tr>
+        <td><%= course.institution.name %></td>
+        <td><%= course.institution.grade %></td>
+        <td><%= course.name%></td>
+        <td><%= course.grade %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
