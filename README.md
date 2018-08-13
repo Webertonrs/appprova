@@ -4,7 +4,7 @@ Useful information:
 
 * Ruby version: ruby 2.5.1
 * Rails version: 5.2.1
-* Mysql2 vwesion: 0.5.2
+* Mysql2 version: 0.5.2
 
 How to run:
 
